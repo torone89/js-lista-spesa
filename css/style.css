@@ -7,3 +7,25 @@
 /* *************************/
 /* Main */
 /* *************************/
+
+#sfondo {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/scrivania.jpeg);
+    height: 100vh;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 52%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    font-weight: 700;
+
+
+}

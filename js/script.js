@@ -31,11 +31,27 @@ let lista = ''
 let i = 0
 
 while (i < shop.length) {
-    lista += `<li>${shop[i]}</li>`
-    i++
+lista += `<li>${shop[i]}</li>`
 
+i++
 }
 
 // stampo nel Dom la lista della spesa
 
 listaspesa.innerHTML = lista;
+
+  // METODO 2 
+// let i = 0
+
+// while (i < shop.length) {
+  
+//     // mi creo l'elemento li 
+//     const appendere = document.createElement('li')
+//     // appendo l'array
+//     appendere.append(shop[i]);
+
+//     listaspesa.appendChild(appendere);
+//     // esco
+
+//     i++
+// }
